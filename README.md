@@ -19,8 +19,8 @@ Three.js (WebGPU) + WebAudio API による音楽連動3Dビジュアライザー
 ## セットアップ
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Chrome 113+ または Edge 113+ で `http://localhost:5173` にアクセス。
@@ -29,13 +29,13 @@ Chrome 113+ または Edge 113+ で `http://localhost:5173` にアクセス。
 
 | コマンド | 説明 |
 | ------- | ---- |
-| `npm run dev` | 開発サーバー起動 |
-| `npm run build` | TypeScript型チェック + プロダクションビルド |
-| `npm run preview` | ビルド成果物プレビュー |
-| `npm run lint` | Biome リント |
-| `npm run lint:fix` | Biome リント（自動修正） |
-| `npm run format` | Biome フォーマット |
-| `npm run test` | Vitest ユニットテスト |
+| `pnpm run dev` | 開発サーバー起動 |
+| `pnpm run build` | TypeScript型チェック + プロダクションビルド |
+| `pnpm run preview` | ビルド成果物プレビュー |
+| `pnpm run lint` | Biome リント |
+| `pnpm run lint:fix` | Biome リント（自動修正） |
+| `pnpm run format` | Biome フォーマット |
+| `pnpm run test` | Vitest ユニットテスト |
 
 ## 技術スタック
 
