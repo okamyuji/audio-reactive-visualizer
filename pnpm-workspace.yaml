@@ -1,0 +1,27 @@
+# 公開から7日未満の版を入れない。依存の乗っ取りへの備え。緊急時だけminimumReleaseAgeExcludeにname@versionで1版ずつ足す
+minimumReleaseAge: 10080
+allowBuilds:
+  "@biomejs/biome": false
+# 7日未満の版の例外。1版ずつ書き、7日を過ぎたら消す
+minimumReleaseAgeExclude:
+  - "@oxc-project/types@0.155.0"
+  - "@rolldown/binding-android-arm-eabi@1.2.15"
+  - "@rolldown/binding-android-arm64@1.2.15"
+  - "@rolldown/binding-darwin-arm64@1.2.15"
+  - "@rolldown/binding-darwin-x64@1.2.15"
+  - "@rolldown/binding-freebsd-x64@1.2.15"
+  - "@rolldown/binding-linux-arm-gnueabihf@1.2.15"
+  - "@rolldown/binding-linux-arm64-gnu@1.2.15"
+  - "@rolldown/binding-linux-arm64-musl@1.2.15"
+  - "@rolldown/binding-linux-ppc64-gnu@1.2.15"
+  - "@rolldown/binding-linux-s390x-gnu@1.2.15"
+  - "@rolldown/binding-linux-x64-gnu@1.2.15"
+  - "@rolldown/binding-linux-x64-musl@1.2.15"
+  - "@rolldown/binding-openharmony-arm64@1.2.15"
+  - "@rolldown/binding-win32-arm64-msvc@1.2.15"
+  - "@rolldown/binding-win32-x64-msvc@1.2.15"
+  - postcss@8.5.31
+  - rolldown@1.2.15
+  - tldts-core@7.4.19
+  - tldts@7.4.19
+  - vite@8.3.5
