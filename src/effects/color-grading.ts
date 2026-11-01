@@ -1,6 +1,6 @@
 import * as THREE from "three";
-import { COLOR_THEMES } from "../utils/constants.js";
 import type { ColorThemeName } from "../utils/constants.js";
+import { COLOR_THEMES } from "../utils/constants.js";
 
 export interface ColorGradingParams {
 	theme: ColorThemeName;

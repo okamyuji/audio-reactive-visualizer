@@ -1,8 +1,8 @@
 import * as THREE from "three";
 import { COLOR_THEMES, WAVEFORM_HISTORY_LENGTH } from "../utils/constants.js";
 import { lerp } from "../utils/math.js";
-import { BaseVisualizer } from "./base-visualizer.js";
 import type { VisualizerData } from "./base-visualizer.js";
+import { BaseVisualizer } from "./base-visualizer.js";
 
 /** 波形リボンメッシュ — 波形データの3D履歴表示 */
 export class WaveformRibbon extends BaseVisualizer {
