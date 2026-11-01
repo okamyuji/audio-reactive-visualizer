@@ -17,13 +17,13 @@
     "test:all": "vitest run && playwright test"
   },
   "dependencies": {
-    "lil-gui": "^0.20.0",
-    "three": "^0.174.0"
+    "lil-gui": "^0.21.0",
+    "three": "^0.186.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@playwright/test": "^1.64.1",
-    "@types/three": "^0.174.0",
+    "@types/three": "^0.186.0",
     "jsdom": "^28.1.0",
     "typescript": "^5.9.3",
     "vite": "^8.3.5",
