@@ -2,8 +2,8 @@ import GUI from "lil-gui";
 import type { AudioAnalyzer } from "../core/audio-analyzer.js";
 import type { BloomEffect } from "../effects/bloom.js";
 import type { ColorGrading } from "../effects/color-grading.js";
-import { AUDIO_DEFAULTS, BLOOM_DEFAULTS, COLOR_THEMES, DEFAULT_THEME } from "../utils/constants.js";
 import type { ColorThemeName } from "../utils/constants.js";
+import { AUDIO_DEFAULTS, BLOOM_DEFAULTS, COLOR_THEMES, DEFAULT_THEME } from "../utils/constants.js";
 import type { BaseVisualizer } from "../visualizers/base-visualizer.js";
 
 export interface ControlsConfig {

@@ -1,8 +1,8 @@
 import * as THREE from "three";
 import { BAR_COUNT, COLOR_THEMES } from "../utils/constants.js";
 import { lerp, normalizeFrequency } from "../utils/math.js";
-import { BaseVisualizer } from "./base-visualizer.js";
 import type { VisualizerData } from "./base-visualizer.js";
+import { BaseVisualizer } from "./base-visualizer.js";
 
 /** 周波数バー — 128本を円形配置 */
 export class FrequencyBars extends BaseVisualizer {

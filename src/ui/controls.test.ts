@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { BloomParams } from "../effects/bloom.js";
-import { AUDIO_DEFAULTS, BLOOM_DEFAULTS, DEFAULT_THEME } from "../utils/constants.js";
 import type { ColorThemeName } from "../utils/constants.js";
+import { AUDIO_DEFAULTS, BLOOM_DEFAULTS, DEFAULT_THEME } from "../utils/constants.js";
 import { type ControlsConfig, createControls } from "./controls.js";
 
 /** テスト用のモックControlsConfig */

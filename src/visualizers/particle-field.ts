@@ -2,8 +2,8 @@ import * as THREE from "three";
 import type { BandEnergy } from "../core/audio-analyzer.js";
 import { COLOR_THEMES, DEFAULT_THEME, PARTICLE_COUNT } from "../utils/constants.js";
 import { lerp } from "../utils/math.js";
-import { BaseVisualizer } from "./base-visualizer.js";
 import type { VisualizerData } from "./base-visualizer.js";
+import { BaseVisualizer } from "./base-visualizer.js";
 
 interface ParticleContext {
 	i3: number;
